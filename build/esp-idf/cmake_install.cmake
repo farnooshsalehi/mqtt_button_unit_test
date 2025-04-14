@@ -539,11 +539,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/esp-idf/main/cmake_install.cmake")
+  include("C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/esp-idf/protocol_examples_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/esp-idf/protocol_examples_common/cmake_install.cmake")
+  include("C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/esp-idf/main/cmake_install.cmake")
 endif()
 

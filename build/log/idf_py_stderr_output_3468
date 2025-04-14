@@ -1,0 +1,30 @@
+fatal: detected dubious ownership in repository at 'C:/Espressif/frameworks/esp-idf-v5.3.1'
+'C:/Espressif/frameworks/esp-idf-v5.3.1' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-752571772-1443179916-2027467901-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Espressif/frameworks/esp-idf-v5.3.1
+info: INFO: Symbol EXAMPLE_WIFI_SSID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\user\Documents\IDF_proj\mqtt-debounce-interr-button\mqtt-debounce-interr-button\mqtt-debounce-interr-button\main\kconfig.projbuild:4
+    C:\Espressif\frameworks\esp-idf-v5.3.1\examples\common_components\protocol_examples_common\Kconfig.projbuild:28
+info: INFO: Symbol EXAMPLE_WIFI_PASSWORD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\user\Documents\IDF_proj\mqtt-debounce-interr-button\mqtt-debounce-interr-button\mqtt-debounce-interr-button\main\kconfig.projbuild:10
+    C:\Espressif\frameworks\esp-idf-v5.3.1\examples\common_components\protocol_examples_common\Kconfig.projbuild:35
+fatal: detected dubious ownership in repository at 'C:/Espressif/frameworks/esp-idf-v5.3.1'
+'C:/Espressif/frameworks/esp-idf-v5.3.1' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-752571772-1443179916-2027467901-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Espressif/frameworks/esp-idf-v5.3.1
+fatal: detected dubious ownership in repository at 'C:/Espressif/frameworks/esp-idf-v5.3.1/components/openthread/openthread'
+'C:/Espressif/frameworks/esp-idf-v5.3.1/components/openthread/openthread/.git' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-752571772-1443179916-2027467901-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Espressif/frameworks/esp-idf-v5.3.1/components/openthread/openthread

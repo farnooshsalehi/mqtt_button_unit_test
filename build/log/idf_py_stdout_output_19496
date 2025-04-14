@@ -1,0 +1,21 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\user\Documents\IDF_proj\mqtt-debounce-interr-button\mqtt-debounce-interr-button\mqtt-debounce-interr-button\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mqtt-debounce-interr-button.c.obj
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+info: INFO: Symbol EXAMPLE_WIFI_SSID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\user\Documents\IDF_proj\mqtt-debounce-interr-button\mqtt-debounce-interr-button\mqtt-debounce-interr-button\main\kconfig.projbuild:4
+    C:\Espressif\frameworks\esp-idf-v5.3.1\examples\common_components\protocol_examples_common\Kconfig.projbuild:28
+info: INFO: Symbol EXAMPLE_WIFI_PASSWORD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Espressif\frameworks\esp-idf-v5.3.1\examples\common_components\protocol_examples_common\Kconfig.projbuild:35
+    C:\Users\user\Documents\IDF_proj\mqtt-debounce-interr-button\mqtt-debounce-interr-button\mqtt-debounce-interr-button\main\kconfig.projbuild:10
+[5/7] Linking CXX executable test-mqtt-debounce-interr-button.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/test-mqtt-debounce-interr-button.bin
+[7/7] cmd.exe /C "cd /D C:\Users\user\Documents\IDF_proj\mqtt-debounce-interr-button\mqtt-debounce-interr-button\mqtt-debounce-interr-button\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/partition_table/partition-table.bin C:/Users/user/Documents/IDF_proj/mqtt-debounce-interr-button/mqtt-debounce-interr-button/mqtt-debounce-interr-button/build/test-mqtt-debounce-interr-button.bin"
+test-mqtt-debounce-interr-button.bin binary size 0xde850 bytes. Smallest app partition is 0x100000 bytes. 0x217b0 bytes (13%) free.

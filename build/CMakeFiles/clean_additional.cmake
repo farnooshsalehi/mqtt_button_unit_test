@@ -16,9 +16,9 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "flasher_args.json"
   "ldgen_libraries"
   "ldgen_libraries.in"
-  "mqtt-debounce-interr-button.bin"
-  "mqtt-debounce-interr-button.map"
   "project_elf_src_esp32.c"
+  "test-mqtt-debounce-interr-button.bin"
+  "test-mqtt-debounce-interr-button.map"
   "x509_crt_bundle.S"
   )
 endif()

@@ -78,7 +78,7 @@ To set up and run the project and its unit tests, ensure you have the following:
 1. ## Setup MQTTX : 
 * Install MQTTX from mqttx.app.
 * Open MQTTX and create a new connection:
-  * Host: broker.hivemq.com
+  * Host: mqtt://mqtt.eclipseprojects.io
   * Port: 1883
   * Protocol: mqtt
   * Leave username/password blank unless your broker requires them.
@@ -92,7 +92,7 @@ To set up and run the project and its unit tests, ensure you have the following:
   * Navigate to Example Connection Configuration:
     * WiFi SSID: Enter your Wi-Fi network name (e.g., MyWiFi).
     * WiFi Password: Enter your Wi-Fi password.
-    * Broker URL: Set to your MQTT broker : mqtt://broker.hivemq.com 
+    * Broker URL: Set to your MQTT broker : mqtt://mqtt.eclipseprojects.io
   
 4. flash and monitor. 
 
