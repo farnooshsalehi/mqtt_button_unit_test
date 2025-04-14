@@ -1,0 +1,26 @@
+
+menu "My MQTT Project Settings"
+
+    config EXAMPLE_WIFI_SSID
+        string "Wi-Fi SSID"
+        default "A"
+        help 
+            Enter your Wi-Fi network name
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "Wi-Fi Password"
+        default "12345678"
+        help 
+            Enter your Wi-Fi password
+
+    config BROKER_URL
+        string "Broker URL"
+        default "mqtt://mqtt.eclipseprojects.io"
+        help
+            URL of the broker to connect to
+
+    config BROKER_URL_FROM_STDIN
+        bool
+        default y if BROKER_URL = "FROM_STDIN"
+
+endmenu
