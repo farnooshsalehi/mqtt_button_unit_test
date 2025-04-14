@@ -40,16 +40,16 @@ To set up and run the project and its unit tests, ensure you have the following:
 - mqtt_button_example/
 
   - main/
-    - mqtt_button_example.c 
-    - mqtt_button_example.h 
+    - mqtt-debounce-interr-button.c
     - CMakeLists.txt 
+    - kconfig.projbuild
 
   - test/
-    - test_mqtt_button.c
+    - test-qtt-debounce-interr-button.c
     - CMakeLists.txt
 
   - CMakeLists.txt
-  - sdkconfig.defaults 
+  - sdkconfig
   - README.md 
 
 ---
