@@ -74,7 +74,7 @@ static void button_task(void* arg) {
     }
 }
 
-void app_main(void) {
+void mqtt_button_app_main(void) {
     // Initialize NVS
     esp_err_t ret = nvs_flash_init();
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {

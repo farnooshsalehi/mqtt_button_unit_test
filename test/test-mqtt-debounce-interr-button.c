@@ -62,7 +62,7 @@ void test_button_debounce(void) {
 // Main test function
 void app_main(void) {
     // Run the original application
-    mqtt_button_example_app_main(); // Renamed original app_main
+    mqtt_button_app_main(); // Renamed original app_main
 
     // Wait for MQTT connection
     ESP_LOGI(TAG, "Waiting for MQTT connection...");
