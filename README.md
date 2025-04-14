@@ -1,0 +1,2 @@
+MQTT Button Example with Hardware Unit Tests
+This project demonstrates an ESP32 application that uses a built-in button to publish messages to an MQTT broker when pressed. The button press is debounced, and a counter increments with each press, publishing a message to the topic /topic/button (e.g., "Button pressed! Count: 1"). The project includes unit tests that verify the button's functionality, debouncing, and MQTT publishing using the actual hardware.
