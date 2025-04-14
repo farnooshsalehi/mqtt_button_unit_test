@@ -16,10 +16,10 @@
 #define DEBOUNCE_TIME_MS 50
 
 static const char *TAG = "mqtt_button_example";
-static volatile uint32_t last_interrupt_time = 0;
-static volatile bool button_event = false;
-static uint32_t press_count = 0;
-static esp_mqtt_client_handle_t mqtt_client; // Global MQTT client handle
+volatile uint32_t last_interrupt_time = 0;
+volatile bool button_event = false;
+uint32_t press_count = 0;
+esp_mqtt_client_handle_t mqtt_client; // Global MQTT client handle
 
 // ISR for button press
 static void IRAM_ATTR button_isr_handler(void* arg) {
